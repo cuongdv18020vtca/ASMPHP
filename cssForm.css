@@ -1,0 +1,188 @@
+/* form{
+    text-align: center;
+} */
+.row{
+    display: flex;
+}
+.form {
+    margin-left:25%;
+    max-width: 450px;
+    margin: auto;
+    box-sizing: border-box solid black;
+}
+.form1{
+    border: 2px solid whitesmoke;
+    box-sizing: border-box;;
+    display: inline-block;
+    padding:10px 20px 20px 10px ;
+    border-radius: 5px;;
+    background: whitesmoke;;
+    margin-left: 25%;
+
+}
+.form2{
+    border: 2px solid whitesmoke;
+    box-sizing: border-box;;
+    display: inline-block;
+    padding:10px 20px 20px 10px ;
+    border-radius: 5px;;
+    background: whitesmoke;;
+    margin-left: 36%;
+}
+
+input{
+    border: 1.3px solid gray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    display:block;
+  /* margin: 20px auto; */
+  width:100%;
+  padding:15px;
+  font-size:18px;
+  border: 2px solid #e7e7e7;
+  background:#fcfcfc;
+
+}
+label{
+    text-align: left;
+    width: 8rem;
+   
+}
+.inputa{
+  border: 1.3px solid gray;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    display:block;
+  /* margin: 20px auto; */
+  width:100%;
+  padding:4px;
+  font-size:18px;
+  border: 2px solid #e7e7e7;
+  background:#fcfcfc;
+}
+button{
+   
+    border-radius: 4px;
+    width: 4rem; 
+    height: 2rem;
+    color: white;
+    border:none;
+    color:white;
+    background:#15CD72;
+}
+#Err{
+    color: red;
+    padding-left: 112px;
+}
+.button{
+  padding-left: 8.7rem;
+}
+table{
+    background: whitesmoke;
+    border-collapse: collapse;  
+    border-radius: 3px; 
+    
+}
+
+/* td:nth-child(even){
+   background-color: white;
+   border: none;
+   
+  
+} */
+tr{
+    border-collapse: collapse;
+}
+.logout{
+    background-color: yellow;
+    color: black;
+    margin-left: 22rem;
+}
+.container{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.header{
+ display: flex;
+ margin-left: 29rem;
+}
+h1{
+    margin-left: 3.6rem;
+}
+.wrap{
+   
+    display:grid ;
+   grid-template-columns:500px 500px 500px ;
+  
+}
+img{
+    width: 500px;
+  
+}
+.links{
+    list-style-type: none;
+   text-decoration: none;
+
+}
+img{
+    text-decoration: none;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    transition: 0.3s;
+    font-size: 17px;
+    
+}
+  .tablinks{
+      width: 6rem;
+      border-radius:none;
+      padding-bottom: 0px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  /* css Login Form*/
+  
